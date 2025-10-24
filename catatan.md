@@ -30,3 +30,7 @@
 
 19. Array itu punya panjang tetap
 20. Slice itu Array yang panjangnya bisa berubah ubah
+
+21. If mah sama aja
+22. Switch case juga sama aja
+23. For itu satu satunya looping di golang

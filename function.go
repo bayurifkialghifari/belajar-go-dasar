@@ -11,6 +11,10 @@ func main() {
 	angka, nama := multipleReturn()
 	fmt.Println(angka)
 	fmt.Println(nama)
+
+	// Ignore return value
+	angka2, _ := multipleReturn()
+	fmt.Println(angka2)
 }
 
 func tambah(a int, b int) int {

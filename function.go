@@ -7,6 +7,10 @@ func main() {
 	fmt.Println(kurang(10, 20))
 
 	void(10, 20)
+
+	angka, nama := multipleReturn()
+	fmt.Println(angka)
+	fmt.Println(nama)
 }
 
 func tambah(a int, b int) int {
@@ -19,4 +23,8 @@ func kurang(a int, b int) int {
 
 func void(a int, b int) {
 	fmt.Println(a + b)
+}
+
+func multipleReturn() (int, string) {
+	return 10, "Hello"
 }

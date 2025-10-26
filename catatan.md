@@ -36,3 +36,4 @@
 23. For itu satu satunya looping di golang
 
 24. var args harus di taro paling belakang
+25. function bisa jadi parameter function lain

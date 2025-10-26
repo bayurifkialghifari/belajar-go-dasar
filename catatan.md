@@ -34,3 +34,5 @@
 21. If mah sama aja
 22. Switch case juga sama aja
 23. For itu satu satunya looping di golang
+
+24. var args harus di taro paling belakang

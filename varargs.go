@@ -5,6 +5,8 @@ import "fmt"
 func main() {
 	fmt.Println(sum(1, 2, 3))          // Output: 6
 	printArgs("Alice", 30, 90, 85, 88) // Output: Name: Alice, Age: 30, Scores: [90 85 88]
+	slice := []int{70, 75, 80}
+	fmt.Println(sum(slice...))         // Output: 225
 }
 
 func sum(nums ...int) int {

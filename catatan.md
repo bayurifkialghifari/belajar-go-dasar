@@ -46,3 +46,6 @@
 
 30. struct itu kaya object di bahasa lain
 31. method itu function biasa aja tapi nempel di struct
+
+32. Interface itu kaya kontrak buat struct
+33. kalau struct nge implement interface harus semua method di interface di buat di structnya

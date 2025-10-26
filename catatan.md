@@ -41,3 +41,5 @@
 26. ada defer function itu di eksekusi paling terakhir pas functionnya udah mau selesai, ini tetep di eksekusi walaupun ada error di functionnya
 
 27. ada panic function itu buat ngehentikan program secara paksa
+28. ada recover function itu buat nangkep panic biar programnya ga berhenti
+29. panggil recover harus di dalam defer function

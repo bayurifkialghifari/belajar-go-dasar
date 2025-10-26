@@ -37,3 +37,5 @@
 
 24. var args harus di taro paling belakang
 25. function bisa jadi parameter function lain
+
+26. ada defer function itu di eksekusi paling terakhir pas functionnya udah mau selesai, ini tetep di eksekusi walaupun ada error di functionnya

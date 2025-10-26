@@ -43,3 +43,6 @@
 27. ada panic function itu buat ngehentikan program secara paksa
 28. ada recover function itu buat nangkep panic biar programnya ga berhenti
 29. panggil recover harus di dalam defer function
+
+30. struct itu kaya object di bahasa lain
+31. method itu function biasa aja tapi nempel di struct

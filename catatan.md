@@ -49,3 +49,8 @@
 
 32. Interface itu kaya kontrak buat struct
 33. kalau struct nge implement interface harus semua method di interface di buat di structnya
+
+34. ada tipe data kosong interface{} itu bisa nampung semua tipe data
+35. any itu alias dari interface{}
+
+36. nil itu kaya null di bahasa lain

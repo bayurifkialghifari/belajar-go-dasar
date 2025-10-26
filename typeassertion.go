@@ -22,4 +22,14 @@ func main() {
 	} else {
 		println("Data is not a string")
 	}
+
+	// Type assertion swtich
+	switch v := data.(type) {
+	case int:
+		println("Data is an integer in switch:", v)
+	case string:
+		println("Data is a string in switch:", v)
+	default:
+		println("Data is of unknown type in switch")
+	}
 }

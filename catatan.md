@@ -39,3 +39,5 @@
 25. function bisa jadi parameter function lain
 
 26. ada defer function itu di eksekusi paling terakhir pas functionnya udah mau selesai, ini tetep di eksekusi walaupun ada error di functionnya
+
+27. ada panic function itu buat ngehentikan program secara paksa

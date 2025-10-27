@@ -61,3 +61,4 @@
 38. kalau mau pass by reference (ngirim alamat data) harus pake pointer (& buat ngambil alamat, \* buat ngambil data dari alamat)
 39. New buat pointer dengan nilai kosong
 40. pointer bisa di pake di parameter function
+41. di sarankan selalu pake pointer di method

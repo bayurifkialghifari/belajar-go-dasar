@@ -1,12 +1,19 @@
 package main
 
 import (
-	"errors"
 	"fmt"
 	"golang-package/database"
 	"golang-package/helper"
 	_ "golang-package/unused"
 )
+
+type bagiError struct {
+	Message string
+}
+
+func (e *bagiError) Error() string {
+	return e.Message
+}
 
 func main() {
 	fmt.Println("Hello, World!")
@@ -30,7 +37,7 @@ func main() {
 
 func Bagi(a int, b int) (int, error) {
 	if b == 0 {
-		return 0, errors.New("pembagi tidak boleh nol")
+		return 0, &bagiError{Message: "Pembagi tidak boleh nol"}
 	}
 	return a / b, nil
 }

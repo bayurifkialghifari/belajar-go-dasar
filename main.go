@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"golang-package/database"
 	"golang-package/helper"
+	_ "golang-package/unused"
 )
 
 func main() {

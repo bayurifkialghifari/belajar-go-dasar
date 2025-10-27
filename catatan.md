@@ -54,3 +54,8 @@
 35. any itu alias dari interface{}
 
 36. nil itu kaya null di bahasa lain
+
+# Pointer
+
+37. default di golang itu pass by value (ngirim salinan data)
+38. kalau mau pass by reference (ngirim alamat data) harus pake pointer (& buat ngambil alamat, \* buat ngambil data dari alamat)
